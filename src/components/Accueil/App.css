@@ -1,0 +1,27 @@
+.main-color {
+    --main-bg-color: #61CE70;
+}
+
+.headerjpg {
+    background-image: url(../../slider-one.jpg);
+    display: flex;
+    background-size: cover;
+    height:500px;
+    color:white;
+}
+.presentation-header {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    margin-top:100px;
+    width:400px;
+}
+hr {
+    color: white;
+    height: 2px;
+    background-color: white;
+}
+.main-color {
+    padding:5px;
+    background-color: var(--main-bg-color);
+}

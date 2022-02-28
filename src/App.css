@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+/*Accueil entête*/
+.head {
+    background-color: #2d3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.account {
+    background-color: #61CE70;
+    padding:14px;
+}
+.logoprogfacil {
+    width:60px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+    color:black;
+}
+.cards svg {
+    width: 83px;
+    margin-left: 31px;
+    margin-top: 33px;
+}
+
+.cards {
+    width: 200px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
