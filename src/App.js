@@ -28,8 +28,7 @@ function App() {
                         <img className="logoprogfacil" src={logo} alt="Logo progfacil" />
                         <li><Link to="/">Accueil</Link></li>
                         <li><Link to="/tuto">Tutos</Link></li>
-                        <li><Link to="/narwhal">Narwhal</Link></li>
-                        <li><Link to="/whale">Whale</Link></li>
+                        <li><Link to="/narwhal">Contact</Link></li>
                     </ul>
                 </nav>
                 <Routes>
