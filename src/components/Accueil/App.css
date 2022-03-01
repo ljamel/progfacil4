@@ -22,6 +22,28 @@ hr {
     background-color: white;
 }
 .main-color {
+    margin-top:5px;
     padding:5px;
     background-color: var(--main-bg-color);
 }
+.cards svg {
+    width: 43px;
+    margin-left: 31px;
+    margin-top: 33px;
+}
+
+.cards {
+    width: 200px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    margin:0;
+}
+p {
+    margin:0;
+ }

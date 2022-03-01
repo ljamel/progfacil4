@@ -1,3 +1,18 @@
-import React from 'react'; export default function Manatee() {
-    return <div><h2>Tuto AppSheet</h2> <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRHao9xNk6D0u50mCF0Nscs2EqK5zfkfsrfolFdHefemWbOEkTE3ZL1ZwtT5VJwkY0YS5dc1M5HzQnX/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </div>;
+import React from 'react';
+import Dropdown from 'react-bootstrap/Dropdown';
+
+export default function Manatee() {
+    return <div className="body2"><h2>Formation sur mesure</h2> <Dropdown>
+        <Dropdown.Toggle variant="success" id="dropdown-basic">
+            Modules
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        </Dropdown.Menu>
+    </Dropdown>
+
+    </div>;
 }

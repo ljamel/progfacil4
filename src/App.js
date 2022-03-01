@@ -7,6 +7,9 @@ import Tuto from './components/Tuto/Tuto';
 import Narwhal from './components/Narwhal/Narwhal';
 import Whale from './components/Whale/Whale';
 import logo from './logoprogfacil.png';
+import Dropdown from 'react-bootstrap/Dropdown';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
@@ -27,7 +30,8 @@ function App() {
                     <ul>
                         <img className="logoprogfacil" src={logo} alt="Logo progfacil" />
                         <li><Link to="/">Accueil</Link></li>
-                        <li><Link to="/tuto">Tutos</Link></li>
+                        <li><Link to="/whale">Le centre de formation</Link></li>
+                        <li><Link to="/tuto">Nos formations</Link></li>
                         <li><Link to="/narwhal">Contact</Link></li>
                     </ul>
                 </nav>
