@@ -5,11 +5,10 @@ export default function Manatee() {
     return <div className="body1">
     <span className="headerjpg">
         <div className="presentation-header">
-                    <h2>Apprendre l'informatique</h2>
+                    <h2>L'école de la réussite</h2>
                     <hr />
-                <p>Vous serez accompagné, formé et guidé étape par étape pour la réalisation de votre application web.</p>
+                <p>Vous serez accompagné, formé et guidé étape par étape pour devenir un devenir un professionnel de l'informatique.</p>
                 <br />
-                    <span className="main-color"><a href="/tuto" title="tuto">NOS COURS</a></span>
         </div>
         
         </span>

@@ -13,7 +13,7 @@ export default function Narwhal() {
             <Form.Control as="textarea" rows={3} />
         </Form.Group>
         <Button variant="primary" type="submit">
-            Submit
+            Envoyer
         </Button>
     </Form><p>tel: 06 25 54 14 66 | contact@progfacil.com</p></div>;
 }
