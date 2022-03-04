@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 
+
+
 export default function Manatee() {
     return <div className="body1">
     <span className="headerjpg">
         <div className="presentation-header">
                     <h2>L'école de la réussite</h2>
                     <hr />
-                <p>Vous serez accompagné, formé et guidé étape par étape pour devenir un devenir un professionnel de l'informatique.</p>
+                <p>Vous serez accompagné, formé et guidé étape par étape, pour devenir un professionnel de l'informatique.</p>
                 <br />
         </div>
         
