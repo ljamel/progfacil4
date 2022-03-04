@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 
 export default function Narwhal() {
-    return <div className="body2"><h2>Contact</h2>         <Form method="get" action="http://localhost:5000/sendmessage">
+    return <div className="body2"><h2>Contact</h2>         <Form method="get" action=":5000/sendmessage">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
             <Form.Label>Email address</Form.Label>
             <Form.Control name="mail" type="email" placeholder="name@example.com" />
