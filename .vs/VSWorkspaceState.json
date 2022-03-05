@@ -4,8 +4,11 @@
     "\\public",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Accueil"
+    "\\src\\components\\Accueil",
+    "\\src\\components\\Narwhal",
+    "\\src\\components\\Tuto",
+    "\\src\\components\\Whale"
   ],
-  "SelectedNode": "\\src\\components\\Accueil\\Accueil.js",
+  "SelectedNode": "\\src\\components\\Whale\\Whale.js",
   "PreviewInSolutionExplorer": false
 }

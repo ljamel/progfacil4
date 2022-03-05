@@ -1,9 +1,10 @@
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion'
+import Accordion from 'react-bootstrap/Accordion';
+import './app.css';
 
 export default function Manatee() {
     return <div className="body2"><h1>Formation sur mesure</h1>
-        <p>Avant votre entrée en formation, l’équipe pédagogique vous accompagne dans la définition de votre projet et adapte votre planning. Ainsi vous bénéficierez d’un planning individualisé et en accord avec votre objectif professionnel.</p>
+        <p className="tuto1">Avant votre entrée en formation, l’équipe pédagogique vous accompagne dans la définition de votre projet et adapte votre planning. Ainsi vous bénéficierez d’un planning individualisé et en accord avec votre objectif professionnel.</p>
 
         <Accordion>
 
@@ -146,7 +147,23 @@ export default function Manatee() {
                 <p>LA S&Eacute;CURISATION DES SERVICES</p>
                 <p>Chroot<br />Panorama des services r&eacute;seaux<br />La s&eacute;curisation des services Web : IIS, Apache,...<br />La s&eacute;curisation du DNS, d&rsquo;une base de donn&eacute;es MySQL, de l&rsquo;e-mail<br />La s&eacute;curisation d'un serveur : les journaux de bord</p>
             </Accordion.Body>
-        </Accordion.Item>
+            </Accordion.Item>
+
+            <Accordion.Item eventKey="5">
+                <Accordion.Header>REACTJS</Accordion.Header>
+                <Accordion.Body>
+                    <p>INTRODUCTION</p>
+                    <p>Rappels Javascript (ES6 &agrave; ES2020)<br />Single Page Application vs Multi Page Application<br />Ecosyst&egrave;me des frameworks web Javascript<br />Solution apport&eacute;e par ReactJS<br />Dom vs VirtualDom<br />Environnement de d&eacute;veloppement: IDE, outils et plugins</p>
+                    <p><br />REACTJS ET ROUTING</p>
+                    <p>Installation de la librairie react-router-dom<br />Comment mettre en place le routing sur une application React<br />Les diff&eacute;rentes m&eacute;thodes pour cr&eacute;er des liens et routes<br />Structurer notre application</p>
+                    <p></p>
+                    <p>DEPLOYER NOTRE APPLICATION REACTJS</p>
+                    <p>Mise en production<br />
+                        Envoie du build dans un serveur web<br />
+                        Activer le https ssl
+                     </p>
+                </Accordion.Body>
+            </Accordion.Item>
     </Accordion>
 
     </div>;

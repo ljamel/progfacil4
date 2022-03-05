@@ -1,0 +1,18 @@
+.about {
+    display: flex;
+    margin-top: 40px;
+}
+.img1 {
+    height: 274px;
+    box-shadow: 12px 12px 2px 1px rgb(31 116 190);
+}
+
+.abouttxt {
+    text-align: justify;
+    padding-right: 15px;
+}
+
+.abouttxt2 {
+    padding-left: 30px;
+    text-align:justify;
+}
