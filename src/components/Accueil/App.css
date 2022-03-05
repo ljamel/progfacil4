@@ -28,7 +28,6 @@ hr {
 }
 .cards svg {
     width: 43px;
-    margin-left: 31px;
     margin-top: 33px;
 }
 
@@ -38,7 +37,7 @@ hr {
 
 .skills {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 h3 {
