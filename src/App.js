@@ -6,9 +6,14 @@ import Accueil from './components/Accueil/Accueil';
 import Tuto from './components/Tuto/Tuto';
 import Narwhal from './components/Narwhal/Narwhal';
 import Whale from './components/Whale/Whale';
+import Mention from './components/Mention/mention'
 import logo from './logoprogfacil.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from 'react-bootstrap/Nav';
+import menuimg from './png-clipart-hamburger-button-computer-icons-menu-in-page-menu-black-and-white-menu-bar.png';
+
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 
 
@@ -44,36 +49,73 @@ class App extends Component {
             </Helmet>
             <div className="head">
                 <span>tel: 06 25 54 14 66 | contact@progfacil.com </span> 
-            </div>
-
-            <BrowserRouter>
-                <nav defaultActiveKey="/home" as="ul">
-                    <img className="logoprogfacil" src={logo} alt="Logo progfacil" />
+                </div>
+                <Popup className="menuphone" trigger={<button className="menuphone"> <img src={menuimg} alt="informatique" className="imgphone" /> </button>} position="left top">
+                    <div className="menuphone">
                         <Nav.Item as="li">
                             <Nav.Link href="/">Accueil</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
+                            <Nav.Link eventKey="link-1" href="/whale">Le centre de formation</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item as="li">
+                            <Nav.Link eventKey="link-2" href="/tuto">Nos formations</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item as="li">
+                            <Nav.Link eventKey="link-2" href="/narwhal">Contact</Nav.Link>
+                        </Nav.Item>
+                    </div>
+                </Popup>
+
+                <BrowserRouter>
+                    <nav defaultActiveKey="/home" as="ul">
+                    <img className="logoprogfacil" src={logo} alt="Logo progfacil" />
+                        <Nav.Item as="li" className="nonep">
+                            <Nav.Link href="/">Accueil</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item as="li" className="nonep">
                         <Nav.Link eventKey="link-1" href="/whale">Le centre de formation</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item as="li">
+                        <Nav.Item as="li" className="nonep">
                         <Nav.Link eventKey="link-2" href="/tuto">Nos formations</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item as="li">
+                        <Nav.Item as="li" className="nonep">
                         <Nav.Link eventKey="link-2" href="/narwhal">Contact</Nav.Link>
                         </Nav.Item>
 
-                </nav>
+                    </nav>
+
                 <Routes>
                     <Route path='/' element={<Accueil />} />
                     <Route path='/tuto' element={<Tuto />} />
                     <Route path='/narwhal' element={<Narwhal />} />
                     <Route path='/whale' element={<Whale />} />
+                    <Route path='/mention' element={<Mention />} />
                 </Routes>
             </BrowserRouter>
 
-            <div className="footer2">
+  
+                <div className="footerp">
+                    <p>
+                        <a className="white" href="/whale">Qui sommes nous</a><br />
+                        <a className="white" href="/mention">Mentions légales</a>
+                    </p>
+                    <p>                    
+                        Société<br />
+
+                        Progfacil<br />
+
+                        Siret : 830 627 063 00019<br />
+                        Mail : contact@progfacil.com<br />
+                        Tel: 06 25 54 14 66<br />
+                    </p>
+                </div>
+      
+  
+                <div className="footer2">
+                <br />
                 © 2012 Progfacil. TOUS LES DROITS SONT RÉSERVÉS.
-            </div>
+                </div>
             </div>
         );
     }

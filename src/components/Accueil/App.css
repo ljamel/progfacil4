@@ -46,3 +46,13 @@ h3 {
 p {
     margin:0;
  }
+
+.partnair {
+    width:200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        display: block;
+    }
+}

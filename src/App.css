@@ -8,6 +8,9 @@ a {
     text-decoration:none!important;
     color:black!important;
 }
+.white {
+    color: white!important;
+}
 /*Accueil entête*/
 .head {
     background-color: #2d3e50;
@@ -45,3 +48,57 @@ nav {
     color: white;
 }
 
+.footerp {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    background-color: #2d3e50;
+}
+
+.menuphone {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .menuphone {
+        display: block;
+        border: none;
+        float: right;
+        list-style: none;
+    }
+    .imgphone {
+        width:70px;
+    }
+    .nonep {
+        display: none;
+    }
+    .about {
+        display:block!important;
+    }
+    .body2 {
+        width:100%;
+    }
+    .abouttxt2 {
+        margin:0;
+        padding:0!important;
+    }
+    .img1 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        height: auto !important;
+        width: 87%;
+    }
+    .tuto1 {
+        width:100%!important;
+    }
+    .presentation-header {
+        margin-left:0px!important;
+    }
+    .cards {
+        width:100%!important;
+    }
+
+
+    }
